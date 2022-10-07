@@ -83,12 +83,26 @@ function changeButtons(){ //The following function changes whats in the buttons 
     document.getElementById("Test1").innerHTML = "<img class='icon' src='images/test1-icon.png' alt='Bookings Button'> Bookings";
     document.getElementById("location").innerHTML = "<img class='icon' src='images/location-icon.png' alt='Location Button'> Locations";
     document.getElementById("gallery").innerHTML = "<img class='icon' src='images/gallery-icon.png' alt='Gallery Button'> Gallery";
+    if(bool){
+      document.getElementById("dark").innerHTML = "<img class='icon' src='images/day-icon.png' alt='Light mode'> Light Mode";
+    }
+    else{
+      document.getElementById("dark").innerHTML = "<img class='icon' src='images/night-icon.png' alt='Night Mode'> Dark Mode";
+    }
+    document.getElementById("top").innerHTML = "<img class='icon' src='images/up-icon.png' alt='Back to top'> Back to Top";
   }
   else if(window.innerWidth < 1000){ //Anyhting smaller than a desktop
     document.getElementById("home").innerHTML = "<img class='icon' src='images/home-icon.png' alt='Home Button'>";
     document.getElementById("Test1").innerHTML = "<img class='icon' src='images/test1-icon.png' alt='Bookings Button'>";
     document.getElementById("location").innerHTML = "<img class='icon' src='images/location-icon.png' alt='Location Button'>";
     document.getElementById("gallery").innerHTML = "<img class='icon' src='images/gallery-icon.png' alt='Gallery Button'>";
+    if(bool){
+      document.getElementById("dark").innerHTML = "<img class='icon' src='images/day-icon.png' alt='Light mode'>";
+    }
+    else{
+      document.getElementById("dark").innerHTML = "<img class='icon' src='images/night-icon.png' alt='Night Mode'>";
+    }
+    document.getElementById("top").innerHTML = "<img class='icon' src='images/up-icon.png' alt='Back to top'>";
   }
 }
 document.addEventListener("DOMContentLoaded", changeButtons); //When the page loads runs the changeButtons function.
