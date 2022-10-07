@@ -170,6 +170,8 @@ div.desc {
 
 .gallery-wrapper{
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 /* Main Content CSS */
