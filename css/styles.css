@@ -161,6 +161,7 @@ div.desc {
   border-color: black;
   display: none;
   color: black;
+  font-size: 0.8em;
 }
 
 #service01:hover #desc01{
