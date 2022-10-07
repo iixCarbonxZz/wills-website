@@ -1,0 +1,428 @@
+/* MOBILE AND GLOBAL STYLES */
+
+/* applies to screens smaller than 500px (first breakpoint) */
+/* and above unless overwritten below */
+
+
+/* Misc CSS */
+*{
+margin:0;
+padding:0;
+scroll-behavior: smooth;
+text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.header-div{
+  border-bottom: 5px solid #12151C;
+}
+
+
+body {
+  color:#FFFFFF;
+  background:#12151C;
+}
+
+p{
+  font-size: 0.9em;
+}
+
+iframe{
+  width: 35%;
+  border: 0;
+  margin: auto
+}
+
+#app{
+	max-width: 50px;
+	margin: auto;
+}
+
+.button{
+  height: 40px;
+  width: 80%;
+  border-radius: 20px;
+  padding: 0 5%;
+  margin: 5%;
+  line-height: 40px;
+  background-color: #12151C;
+  border: 2px solid #008AE5;
+  display:block;
+}
+
+.nav-title{
+  text-transform: uppercase;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: left;
+}
+
+.nav-background{
+  height: 100%;
+}
+
+.foot-wrapper{
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.bottom-button{
+  float:left;
+  position: fixed;
+  bottom: 10px;
+  height: 50px;
+  width: 5%;
+  border-radius: 21px;
+  padding: 0 2%;
+  margin: 3px;
+  background-color: #12151C;
+  border-bottom: 2px solid;
+  border-color: #008AE5;
+  display:block;
+}
+
+.icon{
+    mix-blend-mode: difference;
+    max-height: 65%;
+    height: auto;
+    width: auto;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+.button:hover{
+  background-color: #191D26;
+  border-bottom: 2px solid;
+  border-color:  #FFFFFF;
+  border-radius: 20px;
+  cursor:pointer;
+}
+
+.bottom-button:hover{
+  background-color: #191D26;
+  border-bottom: 2px solid;
+  border-color:  #FFFFFF;
+  border-radius: 20px;
+  cursor:pointer;
+}
+
+
+
+/* Page Divider CSS */
+.banner{
+  width: 100%;
+
+}
+/* Below is the Image Gallery CSS */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px 0 6%;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  background-color: #FFFFF3;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  border-top-style: solid;
+  border-color: black;
+  display: none;
+}
+
+#service01:hover #desc01{
+  display: block;
+}
+
+
+
+.gallery-wrapper{
+  margin: auto;
+}
+
+/* Main Content CSS */
+#main-wrapper{
+  float:right;
+  background: #181C25;
+  width: 84%;
+  margin: 2px;
+  text-align: left;
+
+}
+
+#side-wrapper{
+  float:left;
+  border-radius: 20px;
+  position: fixed;
+  background: #181C25;
+  width: 10%;
+  height: 47%;
+  margin: 2px;
+  padding-right: 5px;
+  display: flex;
+  align-items: center;
+  max-height: 340px;
+}
+
+#main{
+  width: 90%;
+  height: 100%;
+}
+
+.side-content{
+  width: 100%;
+  height: 100%;
+}
+
+.main-img{
+  padding-left: 6%;
+  width: 25%;
+  height: 20%;
+  max-height: 400px;
+  max-width: 400px;
+}
+
+/* Light Mode CSS */
+#ld{
+  float:left;
+  position: fixed;
+  bottom: 7%;
+  height: 50px;
+  width: 5%;
+  border-radius: 20px;
+  padding: 0 2%;
+  margin: 3px;
+  background-color: #12151C;
+  border-bottom: 2px solid;
+  border-color: #008AE5;
+  display:block;
+}
+
+#ld:hover{
+  background-color: #191D26;
+  border-bottom: 2px solid;
+  border-color:  #FFFFFF;
+  border-radius: 20px;
+  cursor:pointer;
+}
+
+
+
+
+
+/* TABLET STYLES */
+
+@media screen and (min-width: 500px) {
+
+  /* applies to screens wider than 499px */
+
+/* Misc CSS */
+  body {
+    background: #12151C;
+  }
+
+  p{
+    font-size:1.7em;
+  }
+
+  iframe{
+    height: 400px;
+  }
+
+  .button{
+    height: 40px;
+    width: 80%;
+    border-radius: 21px;
+    padding: 0 5%;
+    margin: 5%;
+    line-height: 40px;
+    background-color: #12151C;
+    border: 2px solid #008AE5;
+    display:block;
+  }
+
+  #side-wrapper{
+    height: auto;
+  }
+
+  #main-wrapper{
+  float:right;
+  background: #181C25;
+  width: 88%;
+  margin: 2px;
+  text-align: left;
+
+}
+}
+
+
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 1000px) {
+
+  /* applies to screens wider than 999px */
+
+/* Misc CSS */
+  body {
+    background: #12151C;
+  }
+
+  p{
+    font-size: 1.7em;
+  }
+
+  #side-wrapper{
+  float:left;
+  position: fixed;
+  background: #181C25;
+  width: 10%;
+  height: 100%;
+  margin: 2px;
+  padding-right: 5px;
+  display: flex;
+  align-items: center;
+  max-height: 700vh;
+  }
+
+
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  text-align: left;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Hide the images by default */
+.mySlides2 {
+  display: none;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* The dots/bullets/indicators */
+.dot2 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
