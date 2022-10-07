@@ -160,6 +160,7 @@ div.desc {
   border-top-style: solid;
   border-color: black;
   display: none;
+  color: black;
 }
 
 #service01:hover #desc01{
