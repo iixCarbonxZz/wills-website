@@ -1,3 +1,7 @@
+//Variable: bool
+//Sets whether Dark mode is triggered onload
+//True = dark
+//False = light
 var bool = true;
 
 function backTop(){
