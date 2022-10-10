@@ -84,7 +84,7 @@ if(bool == false){ //Light Mode
 function changeButtons(){ //The following function changes whats in the buttons depending on screen size from words to icons.
   if(window.innerWidth >= 1000){ //Desktop Resolution
     document.getElementById("home").innerHTML = "<img class='icon' src='images/home-icon.png' alt='Home Button'> Home";
-    document.getElementById("Test1").innerHTML = "<img class='icon' src='images/test1-icon.png' alt='Bookings Button'> Bookings";
+    document.getElementById("Test1").innerHTML = "<img class='icon' src='images/test1-icon.png' alt='Bookings Button'> Treatments";
     document.getElementById("location").innerHTML = "<img class='icon' src='images/location-icon.png' alt='Location Button'> Locations";
     document.getElementById("gallery").innerHTML = "<img class='icon' src='images/gallery-icon.png' alt='Gallery Button'> Gallery";
     if(bool){
