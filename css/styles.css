@@ -47,7 +47,9 @@ iframe{
 	margin: auto;
 }
 
-.button{
+/* BUTTONS */
+
+.button-core{
   height: 40px;
   width: 80%;
   border-radius: 20px;
@@ -60,15 +62,21 @@ iframe{
   color: #FF6464;
 }
 
-.foot-button{
+.button-nav{
+
+}
+
+.button-foot{
   bottom: 100px;
   position: absolute;
   width: 100%;
 }
 
-.foot-button:last-child{
+.button-foot:last-child{
     bottom:175px;
 }
+
+/* NAVBAR */
 
 .nav-title{
   text-transform: uppercase;

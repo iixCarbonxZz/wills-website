@@ -1,7 +1,12 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <script src="js/get.js"></script>
   <script>
+    document.addEventListener("DOMContentLoaded", getNav("nav"));
+    document.addEventListener("DOMContentLoaded", getNav("header"));
+  </script>
+  <!--<script>
   //An attempt to inject HTML into the page using AJAX.
   document.addEventListener("DOMContentLoaded", getNav());
 
@@ -18,7 +23,7 @@
       dest.innerHTML = text;
     })
   }
-  </script>
+</script>-->
   <!--FAVICON-->
   <link rel="shortcut icon" href="images\favicon\favicon.ico" />
   <meta charset="utf-8">
