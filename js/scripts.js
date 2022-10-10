@@ -51,7 +51,7 @@ if(bool == false){ //Light Mode
     var backs2 = document.getElementsByClassName("back-color2");
 
     document.getElementById("dark").innerHTML = "<img class='icon' src='images/night-icon.png' alt='Night Mode'> Dark Mode";
-    document.documentElement.style.backgroundColor = "#E6E6E7";
+    document.documentElement.style.backgroundColor = "#FFFFFF";
 
     for(i=0;i < backs.length; i++){
       backs[i].style.backgroundColor = "#E6E6E7";
