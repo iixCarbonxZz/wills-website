@@ -2,7 +2,7 @@
 //Sets whether Dark mode is triggered onload
 //True = dark
 //False = light
-var bool = true;
+var bool = false;
 
 function backTop(){
   document.documentElement.scrollTop = 0; //Takes the user to the top of the SPA (Single Page Application)

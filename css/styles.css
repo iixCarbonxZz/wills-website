@@ -164,11 +164,14 @@ div.desc {
   font-size: 0.8em;
 }
 
-#service01:hover #desc01{
+/*#service01:hover #desc01{
   display: block;
+}*/
+
+#desc01{
+  word-wrap: break-word;
+  text-align: center;
 }
-
-
 
 .gallery-wrapper{
   margin: auto;
