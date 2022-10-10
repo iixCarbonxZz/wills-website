@@ -47,6 +47,32 @@ iframe{
 	margin: auto;
 }
 
+/* COLORS */
+
+.color-back{
+  background-color: #FFFFFF;
+}
+
+.color-fore{
+  background-color: #AAAAAA;
+}
+
+.color-add{
+  background-color: #AFAFAF;
+}
+
+.color-text-link{
+  color: #B9B9B9;
+}
+
+.color-text-link:hover{
+  color: #010101;
+}
+
+.color-text-para{
+
+}
+
 /* BUTTONS */
 
 .button-core{
@@ -89,13 +115,14 @@ iframe{
   height: 100%;
 }
 
-.foot-wrapper{
+.nav-foot-wrapper{
   bottom: 0;
   position: fixed;
   width: 100%;
 }
 
-.bottom-button{
+
+/*.bottom-button{
   float:left;
   position: fixed;
   bottom: 10px;
@@ -109,7 +136,7 @@ iframe{
   border-color: #FF6464;
   color: #FF6464;
   display:block;
-}
+}*/
 
 .icon{
     mix-blend-mode: difference;

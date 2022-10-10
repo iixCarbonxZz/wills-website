@@ -23,12 +23,12 @@
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidebar a:hover {
+.nav-sidebar a:hover {
   color: #FF6464;
 }
 
 /* Position and style the close button (top right corner) */
-.sidebar .closebtn {
+.nav-sidebar .button-nav-close {
   position: absolute;
   top: 0;
   right: 25px;
@@ -37,7 +37,7 @@
 }
 
 /* The button used to open the sidebar */
-.openbtn {
+.button-nav-open {
   font-size: 20px;
   cursor: pointer;
   background-color: #111;
@@ -51,17 +51,19 @@
 
 }
 
-.openbtn:hover {
+.button-nav-open:hover {
   background-color: #444;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+/* Style page content - use this if you want to push the page content to the right when
+you open the side navigation */
 #main {
   transition: margin-left .5s; /* If you want a transition effect */
   padding: 20px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+/* On smaller screens, where height is less than 450px, change the style of the sidenav
+(less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
