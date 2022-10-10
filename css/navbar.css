@@ -44,6 +44,11 @@
   color: white;
   padding: 10px 15px;
   border: none;
+  border-radius: 30px;
+  position:absolute;
+  top: 0;
+  left: 0;
+
 }
 
 .openbtn:hover {
