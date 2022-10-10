@@ -116,7 +116,7 @@ iframe{
 .button:hover{
   background-color: #191D26;
   border-bottom: 2px solid;
-  border-color:  #FFFFFF;
+  border-color:  #FF6464;
   border-radius: 20px;
   cursor:pointer;
 }
@@ -124,7 +124,7 @@ iframe{
 .bottom-button:hover{
   background-color: #191D26;
   border-bottom: 2px solid;
-  border-color:  #FFFFFF;
+  border-color:  #FF6464;
   border-radius: 20px;
   cursor:pointer;
 }
