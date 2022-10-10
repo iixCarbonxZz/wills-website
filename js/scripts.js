@@ -174,7 +174,11 @@ function showSlides2(n) {
 /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
 function openNav() {
   document.getElementById("mySidebar").style.width = "15%";
+<<<<<<< HEAD
   document.getElementById("mySidebar").style.paddingRight = "1%";
+=======
+  document.getElementById("mySidebar").style.paddingright = "1%";
+>>>>>>> 156b17b552196b6a52e72aef61f949daf52ab234
   document.getElementById("side-wrapper").style.display = "none";
 
 }
@@ -182,6 +186,10 @@ function openNav() {
 /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
 function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
+<<<<<<< HEAD
   document.getElementById("mySidebar").style.paddingRight = "0%";
+=======
+  document.getElementById("mySidebar").style.paddingright = "0%";
+>>>>>>> 156b17b552196b6a52e72aef61f949daf52ab234
   document.getElementById("side-wrapper").style.display = "block";
 }
