@@ -276,7 +276,7 @@ div.desc {
 
 /* Misc CSS */
   body {
-    background: #12151C;
+    background: #FFFFFF;
   }
 
   p{
@@ -294,7 +294,7 @@ div.desc {
     padding: 0 5%;
     margin: 5%;
     line-height: 40px;
-    background-color: #12151C;
+    background-color: #FFFFFF;
     border: 2px solid #008AE5;
     display:block;
   }
@@ -305,7 +305,7 @@ div.desc {
 
   #main-wrapper{
   float:right;
-  background: #181C25;
+  background: #FFFFFF;
   width: 88%;
   margin: 2px;
   text-align: left;
@@ -323,7 +323,7 @@ div.desc {
 
 /* Misc CSS */
   body {
-    background: #12151C;
+    background: #FFFFFF;
   }
 
   p{
@@ -333,7 +333,7 @@ div.desc {
   #side-wrapper{
   float:left;
   position: fixed;
-  background: #181C25;
+  background: #FFFFFF;
   width: 10%;
   height: 100%;
   margin: 2px;
