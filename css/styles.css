@@ -54,6 +54,12 @@ iframe{
   display:block;
 }
 
+.foot-button{
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
 .nav-title{
   text-transform: uppercase;
   font-family: Arial;
@@ -167,6 +173,7 @@ div.desc {
 /*#service01:hover #desc01{
   display: block;
 }*/
+
 
 #desc01{
   word-wrap: break-word;
