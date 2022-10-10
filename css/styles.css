@@ -10,6 +10,7 @@ margin:0;
 padding:0;
 scroll-behavior: smooth;
 text-align: center;
+font-family: abadi, sans-serif;
 }
 
 a{
@@ -66,7 +67,7 @@ iframe{
 
 .nav-title{
   text-transform: uppercase;
-  font-family: Arial;
+  font-family: abadi,sans-serif;
   font-weight: bold;
   text-align: left;
 }
