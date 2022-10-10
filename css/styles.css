@@ -55,9 +55,13 @@ iframe{
 }
 
 .foot-button{
-  bottom: 0;
-  position: fixed;
+  bottom: 100px;
+  position: absolute;
   width: 100%;
+}
+
+.foot-button:last-child{
+    bottom:175px;
 }
 
 .nav-title{
