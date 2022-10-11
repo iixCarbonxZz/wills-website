@@ -215,6 +215,10 @@ div.desc {
   display: block;
 }*/
 
+#location-text{
+  border-bottom: black;
+  border-bottom-style: solid;
+}
 
 #desc01{
   word-wrap: break-word;
