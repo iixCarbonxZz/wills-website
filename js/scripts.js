@@ -8,7 +8,7 @@ function changeButtons(){ //The following function changes whats in the buttons 
   if(window.innerWidth >= 1000){ //Desktop Resolution
     document.getElementById("home").innerHTML = "<img class='icon' src='images/home-icon.png' alt='Home Button'> Home";
     document.getElementById("Test1").innerHTML = "<img class='icon' src='images/test1-icon.png' alt='Bookings Button'> Treatments";
-    document.getElementById("location").innerHTML = "<img class='icon' src='images/location-icon.png' alt='Location Button'> Locations";
+    document.getElementById("location").innerHTML = "<img class='icon' src='images/location-icon.png' alt='Location Button'> Find Us";
     document.getElementById("gallery").innerHTML = "<img class='icon' src='images/gallery-icon.png' alt='Gallery Button'> Gallery";
     document.getElementById("top").innerHTML = "<img class='icon' src='images/up-icon.png' alt='Back to top'> Back to Top";
   }
