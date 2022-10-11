@@ -2,7 +2,7 @@ function backTop(){
   document.documentElement.scrollTop = 0; //Takes the user to the top of the SPA (Single Page Application)
 }
 
-document.getElementById("top").onclick = backTop; //Calls the backTop function when clicked.
+document.getElementById("top").onclick = backTop(); //Calls the backTop function when clicked.
 
 function changeButtons(){ //The following function changes whats in the buttons depending on screen size from words to icons.
   if(window.innerWidth >= 1000){ //Desktop Resolution
