@@ -277,6 +277,13 @@ div.desc {
   max-width: 400px;
 }
 
+.main-img{
+  padding-left: 6%;
+  width: 75%;
+  height: 25%;
+
+}
+
 /* Light Mode CSS */
 #ld{
   float:left;
