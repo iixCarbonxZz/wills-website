@@ -14,7 +14,7 @@ font-family: abadi, sans-serif;
 }
 
 b, h1{
-  color: #FF6464;
+  color: #FEA9BE;
 }
 
 a{
@@ -83,9 +83,9 @@ iframe{
   margin: 5%;
   line-height: 40px;
   background-color: #FFFFFF;
-  border: 2px solid #FF6464;
+  border: 2px solid #FEA9BE;
   display:block;
-  color: #FF6464;
+  color: #FEA9BE;
 }
 
 .button-nav{
@@ -133,8 +133,8 @@ iframe{
   margin: 3px;
   background-color: #FFFFFF;
   border-bottom: 2px solid;
-  border-color: #FF6464;
-  color: #FF6464;
+  border-color: #FEA9BE;
+  color: #FEA9BE;
   display:block;
 }*/
 
@@ -151,7 +151,7 @@ iframe{
 .button:hover{
   background-color: #191D26;
   border-bottom: 2px solid;
-  border-color:  #FF6464;
+  border-color:  #FEA9BE;
   border-radius: 20px;
   cursor:pointer;
 }
@@ -159,7 +159,7 @@ iframe{
 .bottom-button:hover{
   background-color: #191D26;
   border-bottom: 2px solid;
-  border-color:  #FF6464;
+  border-color:  #FEA9BE;
   border-radius: 20px;
   cursor:pointer;
 }
@@ -287,14 +287,14 @@ div.desc {
   margin: 3px;
   background-color: #FFFFFF;
   border-bottom: 2px solid;
-  border-color: #FF6464;
+  border-color: #FEA9BE;
   display:block;
 }
 
 #ld:hover{
   background-color: #FFFFFF;
   border-bottom: 2px solid;
-  border-color:  #FF6464;
+  border-color:  #FEA9BE;
   border-radius: 20px;
   cursor:pointer;
 }
@@ -330,9 +330,9 @@ div.desc {
     margin: 5%;
     line-height: 40px;
     background-color: #FFFFFF;
-    border: 2px solid #FF6464;
+    border: 2px solid #FEA9BE;
     display:block;
-    color: #FF6464;
+    color: #FEA9BE;
   }
 
   #side-wrapper{
