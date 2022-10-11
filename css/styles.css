@@ -195,7 +195,6 @@ div.gallery {
   border: 1px solid #ccc;
   float: left;
   width: 180px;
-  background-color: #FFFFF3;
 }
 
 div.gallery:hover {
@@ -210,11 +209,6 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
-  border-top-style: solid;
-  border-color: black;
-  display: none;
-  color: black;
-  font-size: 0.8em;
 }
 
 /*#service01:hover #desc01{
