@@ -220,6 +220,10 @@ div.desc {
   border-bottom-style: solid;
 }
 
+.location-header{
+  font-size: 1.3em;
+}
+
 #desc01{
   word-wrap: break-word;
   text-align: center;
