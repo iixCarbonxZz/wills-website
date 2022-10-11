@@ -215,7 +215,7 @@ div.desc {
   display: block;
 }*/
 
-#location-text{
+.location-text{
   border-bottom: black;
   border-bottom-style: solid;
 }
