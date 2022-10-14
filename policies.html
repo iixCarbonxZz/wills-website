@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script src="js/get.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", getNav("nav"));
+    document.addEventListener("DOMContentLoaded", getNav("header"));
+  </script>
+  <!--<script>
+  //An attempt to inject HTML into the page using AJAX.
+  document.addEventListener("DOMContentLoaded", getNav());
+
+  function getNav(){
+    const url = "./page-elements/navbar.html";
+    let req = new Request(url, {
+      method: "GET"
+    });
+
+    fetch(req)
+    .then(response => response.text())
+    .then (text => {
+      let dest = document.querySelector("navbar");
+      dest.innerHTML = text;
+    })
+  }
+</script>-->
+  <!--FAVICON-->
+  <link rel="shortcut icon" href="images\favicon\favicon.ico" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty on the Green</title>
+  <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+<body>
+  <navbar>
+
+</navbar>
+  <!-- The Light/Dark mode button and the Back to Top buttons navigation bar -->
+    <!--
+    <a class="button back-color2" id="ld"><img class="icon" src="images/day-icon.png" alt="Light mode"></a>
+    <nav class="side-content">
+    <a class="bottom-button back-color2" id="top" ><img class="icon" src="images/up-icon.png" alt="Back to top"></a>
+  </nav>
+  -->
+  <div class="back-color" id="main-wrapper">
+    <div id="main-content">
+      <div class="back-color header-div" id="main-head"><img class="logo" src="images/logo.jpg" alt="Logo"></div>
+      <h1 id="title">Policies</h1>
+      <br>
+      <p>Cancellation Policy: If you cancel within 24 hours of an appointment, you're not entitled to a refund.</p>
+      <br><br>
+      <p>Returns Policy: I don't know how this works for a spa but I needed dummy text. </p>
+	 </div>
+  </div>
+</body>
+<script src="js/scripts.js"></script>
+</html>
