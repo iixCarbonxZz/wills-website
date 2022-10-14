@@ -17,6 +17,10 @@ b, h1{
   color: #FEA9BE;
 }
 
+.location-image{
+width: 50%;
+}
+
 a{
   text-decoration: none;
   color: #000000;
@@ -342,6 +346,10 @@ div.desc {
     color: #FEA9BE;
   }
 
+  .location-image{
+    width:100%;
+  }
+
   #side-wrapper{
     height: auto;
   }
@@ -367,6 +375,10 @@ div.desc {
 /* Misc CSS */
   body {
     background: #FFFFFF;
+  }
+
+  .location-image{
+    width: 50%;
   }
 
   p{
