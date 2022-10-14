@@ -91,7 +91,7 @@ function openNav() {
   document.getElementById("mySidebar").style.width = "15%";
   document.getElementById("mySidebar").style.paddingRight = "1%";
   document.getElementById("side-wrapper").style.display = "none";
-
+  changeButtons();
 }
 
 /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
