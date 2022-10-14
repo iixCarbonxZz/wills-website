@@ -356,9 +356,9 @@ div.desc {
   }
 
   #main-wrapper{
-  float:right;
+  /*float:right;*/
   background: #FFFFFF;
-  width: 88%;
+  /*width: 88%;*/
   margin: 2px;
   text-align: left;
 
