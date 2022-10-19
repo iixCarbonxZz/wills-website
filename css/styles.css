@@ -168,6 +168,18 @@ iframe{
   cursor:pointer;
 }
 
+.button{
+  height: 40px;
+  width: 80%;
+  border-radius: 21px;
+  padding: 0 5%;
+  margin: 5%;
+  line-height: 40px;
+  background-color: #FFFFFF;
+  border: 2px solid #FEA9BE;
+  display:block;
+  color: #FEA9BE;
+}
 
 
 /* Page Divider CSS */
@@ -499,6 +511,20 @@ height:0;
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.button{
+  height: 40px;
+  width: 80%;
+  border-radius: 21px;
+  padding: 0 5%;
+  margin: 5%;
+  line-height: 40px;
+  background-color: #FFFFFF;
+  border: 2px solid #FEA9BE;
+  display:block;
+  color: #FEA9BE;
+}
+
 
 /* The dots/bullets/indicators */
 .dot2 {
