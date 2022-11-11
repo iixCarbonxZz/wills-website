@@ -27,7 +27,7 @@ function changeButtons(){ //The following function changes whats in the buttons 
   }
 }
 document.addEventListener("DOMContentLoaded", changeButtons); //When the page loads runs the changeButtons function.
-window.onresize = changeButtons; //When they resize the window it runs the changeButtons function.
+//window.onresize = changeButtons; //When they resize the window it runs the changeButtons function.
 
 let slideIndex = 1;
 showSlides(slideIndex);
