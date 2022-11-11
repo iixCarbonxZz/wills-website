@@ -1,3 +1,7 @@
+*{
+  font-family: "caviar dreams", "lane", "abadi", "arial", sans-serif;
+}
+
 /* The sidebar menu */
 .nav-sidebar {
   height: auto; /* 100% Full-height */

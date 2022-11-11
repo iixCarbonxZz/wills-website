@@ -10,7 +10,7 @@ margin:0;
 padding:0;
 scroll-behavior: smooth;
 text-align: center;
-font-family: abadi, sans-serif;
+font-family: "caviar dreams", "lane", "abadi", "arial", sans-serif;
 }
 
 b, h1{
@@ -195,7 +195,7 @@ iframe{
 
 .nav-title{
   text-transform: uppercase;
-  font-family: abadi,sans-serif;
+font-family: "caviar dreams", "lane", "abadi", "arial", sans-serif;
   font-weight: bold;
   text-align: left;
 }
