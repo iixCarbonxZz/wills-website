@@ -70,7 +70,22 @@ you open the side navigation */
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav
 (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 1000px) {
+  .nav-sidebar {
+    height: auto; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 128);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    /*border-top-right-radius: 30px;*/
+    border-bottom-right-radius: 30px;
+  }
+
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
