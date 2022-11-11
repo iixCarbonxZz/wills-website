@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "caviar dreams";
+  src: url("..\fonts\CaviarDreams.ttf");
+}
+
 *{
   font-family: "caviar dreams", "lane", "abadi", "arial", sans-serif;
 }

@@ -5,6 +5,12 @@
 
 
 /* Misc CSS */
+@font-face {
+  font-family: "caviar dreams";
+  src: url("..\fonts\CaviarDreams.ttf");
+}
+
+
 *{
 margin:0;
 padding:0;
