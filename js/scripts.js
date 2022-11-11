@@ -5,6 +5,7 @@ function backTop(){
 //document.getElementById("top").onclick = backTop(); //Calls the backTop function when clicked.
 
 function changeButtons(){ //The following function changes whats in the buttons depending on screen size from words to icons.
+  console.log("changeButtons()");
   if(window.innerWidth >= 1000){ //Desktop Resolution
     document.getElementById("menu").innerHTML = "&#9776; Menu";
     document.getElementById("home").innerHTML = "<img class='icon' src='images/home-icon.png' alt='Home Button'> Home";
@@ -61,6 +62,7 @@ function showSlides(n) {
 
 /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
 function openNav() {
+  console.log("openNav()");
   if(window.innerWidth < 1000){
     document.getElementById("mySidebar").style.width = "99%";
   }
@@ -74,6 +76,7 @@ function openNav() {
 
 /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
 function closeNav() {
+  console.log("closeNav()");
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("mySidebar").style.paddingRight = "0%";
   document.getElementById("side-wrapper").style.display = "block";
