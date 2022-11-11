@@ -17,6 +17,11 @@ function changeButtons(){ //The following function changes whats in the buttons 
   else if(window.innerWidth < 1000){ //Anyhting smaller than a desktop
     document.getElementById("menu").innerHTML = "&#9776;";
     document.getElementById("mySidebar").style.width = "99%";
+    document.getElementById("home").innerHTML = "Home";
+    document.getElementById("Test1").innerHTML = "Treatments";
+    document.getElementById("location").innerHTML = "Find Us";
+    document.getElementById("gallery").innerHTML = "Gallery";
+    document.getElementById("policies").innerHTML = "Policies";
     //document.getElementById("top").innerHTML = "<img class='icon' src='images/up-icon.png' alt='Back to top'>";
   }
 }
