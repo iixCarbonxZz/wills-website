@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script src="js/get.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", getNav("nav"));
+    document.addEventListener("DOMContentLoaded", getNav("header"));
+  </script>
+  <!--<script>
+  //An attempt to inject HTML into the page using AJAX.
+  document.addEventListener("DOMContentLoaded", getNav());
+
+  function getNav(){
+    const url = "./page-elements/navbar.html";
+    let req = new Request(url, {
+      method: "GET"
+    });
+
+    fetch(req)
+    .then(response => response.text())
+    .then (text => {
+      let dest = document.querySelector("navbar");
+      dest.innerHTML = text;
+    })
+  }
+</script>-->
+  <!--FAVICON-->
+  <link rel="shortcut icon" href="images\favicon\favicon.ico" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty on the Green</title>
+  <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+<body>
+  <navbar>
+
+</navbar>
+  <!-- The Light/Dark mode button and the Back to Top buttons navigation bar -->
+    <!--
+    <a class="button back-color2" id="ld"><img class="icon" src="images/day-icon.png" alt="Light mode"></a>
+    <nav class="side-content">
+    <a class="bottom-button back-color2" id="top" ><img class="icon" src="images/up-icon.png" alt="Back to top"></a>
+  </nav>
+  -->
+  <div class="back-color" id="main-wrapper">
+    <div id="main-content">
+      <div class="back-color header-div" id="main-head"><img class="logo" src="images/logo.jpg" alt="Logo"></div>
+      <h1 id="title">Price Lists</h1>
+      <br>
+	    <p>Below you can find a list of our prices:</p>
+      <br>
+      <h1>Facials</h1>
+      <br>
+      <table>
+        <tr>
+          <th>Treatment</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Express Facial</td>
+          <td>£30.00</td>
+        </tr>
+        <tr>
+          <td>Full Facial</td>
+          <td>£45.00</td>
+        </tr>
+        <tr>
+          <td>Luxury Facial</td>
+          <td>£55.00</td>
+        </tr>
+      </table>
+      <br>
+      <h1>Brows</h1>
+      <br>
+      <table>
+        <tr>
+          <th>Treatment</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Highly Defined Brows</td>
+          <td>£25.00</td>
+        </tr>
+        <tr>
+          <td>Brow Tidy</td>
+          <td>£8.00</td>
+        </tr>
+        <tr>
+          <td>Brow Tint</td>
+          <td>£8.00</td>
+        </tr>
+        <tr>
+          <td>Brow Tint and Tidy</td>
+          <td>£15.00</td>
+        </tr>
+        <tr>
+          <td>Brow and Lash Tint</td>
+          <td>£18.00</td>
+        </tr>
+        <tr>
+          <td>Brow Threading</td>
+          <td>£10.00</td>
+        </tr>
+      </table>
+      <br>
+      <h1>Lashes</h1>
+      <br>
+      <table>
+        <tr>
+          <th>Treatment</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Classic Lashes</td>
+          <td>£45.00</td>
+        </tr>
+        <tr>
+          <td>Classic Lashes (Infills)</td>
+          <td>£26.00</td>
+        </tr>
+        <tr>
+          <td>Hybrid Lashes</td>
+          <td>£55.00</td>
+        </tr>
+        <tr>
+          <td>Hybrid Lashes (Infills)</td>
+          <td>£30.00</td>
+        </tr>
+        <tr>
+          <td>Lash Removal</td>
+          <td>£10.00</td>
+        </tr>
+        <tr>
+          <td>Eye Tint</td>
+          <td>£12.00</td>
+        </tr>
+      </table>
+      <br>
+      <h1>Nails</h1>
+      <br>
+      <table>
+        <tr>
+          <th>Treatment</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>CND Shellac Manicure</td>
+          <td>£28.00</td>
+        </tr>
+        <tr>
+          <td>Gel Polish Removal</td>
+          <td>£5.00</td>
+        </tr>
+        <tr>
+          <td>Gel Polish</td>
+          <td>£28.00</td>
+        </tr>
+        <tr>
+          <td>CND Shellac Polish with Removal</td>
+          <td>£33.00</td>
+        </tr>
+        <tr>
+          <td>Gel Polish with Removal</td>
+          <td>£33.00</td>
+        </tr>
+      </table>
+      <br>
+      <h1>Makeup</h1>
+      <br>
+      <table>
+        <tr>
+          <th>Treatment</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Occasion Makeup</td>
+          <td>From £30.00</td>
+        </tr>
+      </table>
+      <br>
+      <h1>Aesthetics</h1>
+      <br>
+      <table>
+        <tr>
+          <th>Treatment</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>LED Light Therapy with Express Facial</td>
+          <td>£50.00</td>
+        </tr>
+        <tr>
+          <td>LED Light Therapy with Full Facial</td>
+          <td>£65.00</td>
+        </tr>
+        <tr>
+          <td>LED Light Therapy with Luxury Facial</td>
+          <td>£75.00</td>
+        </tr>
+        <tr>
+          <td>LED Light Therapy Course (6 Sessions)</td>
+          <td>£240.00</td>
+        </tr>
+        <tr>
+          <td>Skin Peel with Express Facial</td>
+          <td>£50.00</td>
+        </tr>
+        <tr>
+          <td>Skin Peel with Full Facial</td>
+          <td>£65.00</td>
+        </tr>
+      </table>
+      <br>
+      <h1>Patch Test</h1>
+      <br>
+      <table>
+        <tr>
+          <th>Treatment</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Patch Test</td>
+          <td>£0.00</td>
+        </tr>
+      </table>
+	 </div>
+  </div>
+</body>
+<script src="js/scripts.js"></script>
+</html>

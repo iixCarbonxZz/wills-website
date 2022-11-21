@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<script src="js/scripts.js"></script>
+  <script>
+  //An attempt to inject HTML into the page using AJAX.
+  document.addEventListener("DOMContentLoaded", getNav());
+
+  function getNav(){
+    const url = "./page-elements/navbar.html";
+    let req = new Request(url, {
+      method: "GET"
+    });
+
+    fetch(req)
+    .then(response => response.text())
+    .then (text => {
+      let dest = document.querySelector("navbar");
+      dest.innerHTML = text;
+    })
+  }
+  </script>
+  <!--FAVICON-->
+  <link rel="shortcut icon" href="images\favicon\favicon.ico" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty on the Green</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/navbar.css">
+</head>
+<body>
+  <navbar>
+
+</navbar>
+  <!-- The Light/Dark mode button and the Back to Top buttons navigation bar -->
+    <!--
+    <a class="button back-color2" id="ld"><img class="icon" src="images/day-icon.png" alt="Light mode"></a>
+    <nav class="side-content">
+    <a class="bottom-button back-color2" id="top" ><img class="icon" src="images/up-icon.png" alt="Back to top"></a>
+  </nav>
+  -->
+  <div class="back-color" id="main-wrapper">
+    <div id="main-content">
+      <div class="back-color header-div" id="main-head"><img class="logo" src="images/logo.jpg" alt="Logo"></div>
+		 <h1 id="title">Treatments</h1>
+			  <p>
+			
+			  </p>
+        <br>
+	<br>
+	    
+	      <img src="images/makeup.png" alt="Treatment">
+	 <p>   <h1 id="title">Facials</h1><br>
+	 <b style="color: black;">Every facial treatment at Beauty on the Green is tailored to your skin. To ensure the right treatment for you all of our relaxing facials include an examination of your skin to determine its properties. While no two facials are the same, they all have common features;
+		 <li style="text-align: left">A facial cleanse to remove oil, dirt and other debris</li>
+		 <li style="text-align: left">Exfoliation to take away dead skin</li>
+		 <li style="text-align: left">Steaming to clear pores, aid circulation and hydrate</li>
+		 <li style="text-align: left">A face mask to remove excess oil, close the pores and soften the skin</li>
+			<li style="text-align: left">Finally, while the mask works its magic, a neck face and shoulder massage</li>
+		 <br>
+		 We also offer additional treatments to perfectly enhance your facial experience including LED Light Therapy and Skin Peels. <br>
+		 Light Emitting Diode (LED) phototherapy is the application of light energy to your skin for therapeutic benefit. The energy is used to improve cellular performance. LED therapy is known for its healing and anti-inflammatory properties. Research has shown that phototherapy can; Increase circulation, accelerate tissue repair, decrease wrinkles, decrease inflammation, improve skintones, ease muscle and joint pain and kill acne bacteria. Recommended as a course of 6 sessions for maximum results. 
+	   	<br><br>
+		 A chemical peel is a high strength skin exfoliator. At Beauty on the Green, we offer a variety of chemical peels which come at different depths (Medium and Deep). Each peel uses a different chemical solution and pH level. 
+	    </b></p>
+      <br><br>
+	     <div>
+               <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now">Book</a>
+             </div>
+	    <br><br>
+	 <!--    <div class="gallery-wrapper">
+           <div class="gallery">
+
+             <div>
+               <b>Express Facial</b>
+             </div>
+              <div>
+               <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUxNywiZSI6MTE0MDU4fV0%3D">Book</a>
+             </div>
+           </div>
+
+           <div class="gallery">
+
+             <div>
+               <b>Full Facial</b>
+             </div>
+             <div>
+               <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUxOSwiZSI6MTE0MDU4fV0%3D">Book</a>
+             </div>
+           </div>
+
+           <div class="gallery">
+
+             <div>
+               <b>Luxury Facial</b>
+             </div>
+             <div>
+               <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUyMCwiZSI6MTE0MDU4fV0%3D">Book</a>
+             </div>
+           </div>
+
+           <div class="gallery">
+
+             <div>
+               <b>LED Light Therapy with Express Facial</b>
+             </div>
+             <div>
+               <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUzOCwiZSI6MTE0MDU4fV0%3D">Book</a>
+             </div>
+           </div>
+
+	<div class="gallery">
+
+                <div>
+                  <b>LED Light Therapy with Luxury Facial</b>
+                </div>
+                <div>
+                  <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTEwNDg0NSwiZSI6MTE0MDU4fV0%3D">Book</a>
+                </div>
+              </div>
+
+
+         </div>
+         <br>
+	     <div class="gallery-wrapper">
+              <div class="gallery">
+
+                <div>
+                  <b>Skin Peel with Express Facial</b>
+                </div>
+                <div>
+                  <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTU2MCwiZSI6MTE0MDU4fV0%3D">Book</a>
+                </div>
+              </div>
+
+              <div class="gallery">
+
+                <div>
+                  <b>Patch Test</b>
+                </div>
+                 <div>
+                  <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTU0MywiZSI6MTE0MDU4fV0%3D">Book</a>
+                </div>
+              </div>
+
+              <div class="gallery">
+
+                <div>
+                  <b>LED Light Therapy with Full Facial</b>
+                </div>
+                  <div>
+                  <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTEwNDg0MywiZSI6MTE0MDU4fV0%3D">Book</a>
+                </div>
+              </div>
+
+       <div class="gallery">
+
+               <div>
+                 <b>Skin Peel with Full Facial</b>
+               </div>
+               <div>
+                 <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTEwNDg0MiwiZSI6MTE0MDU4fV0%3D">Book</a>
+               </div>
+             </div>
+
+		      <div class="gallery">
+
+              <div>
+                <b>Skin Peel</b>
+              </div>
+             <div>
+                <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTU2MCwiZSI6MTE0MDU4fV0%3D">Book</a>
+              </div>
+            </div>
+
+              <div class="gallery">
+
+                <div>
+                  <b>LED Light Therapy Course (6 Sessions)</b>
+                </div>
+                <div>
+                  <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTEwNDg1NCwiZSI6MTE0MDU4fV0%3D">Book</a>
+                </div>
+              </div>
+            </div>
+	    <br>
+	    <br>-->
+	
+	      <img src="images/lashbrow.png" alt="Treatment">
+	        <h1 id="title">Lashes and Brows</h1><br><br>
+	  <p> <h1 id="title">Brows</h1><br> 
+<b style="color: black;">At Beauty on the Green we offer eyebrow and eyelash tinting using a colour suited to you to create a natural and balanced finish. We recommend complimenting your tint with our eyebrow shaping services which use either wax or threading to achieve your desired look. For the most complrehensive treatment, Highly Defined brows are for you. They create a complete look using tinting, waxing, threading and tweezing. </b>
+<br><br>
+<h1 id="title">Lashes</h1><br>
+<b style="color: black;">Eyelash extensions are a way to extend the length and thickness of your natural lashes. Not to be confused with self stick strip false lashes, our semi-permanent extensions are adhered one by one on to the natural lashes using a specifically formulated adhesive that lasts a number of weeks. Our extensions are very comfortable to wear and are so lightweight that you wont even be able to feel you're wearing them, they look and feel completely natural. </b>
+	
+	    <br><br>
+	    <div>
+               <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now">Book</a>
+             </div>
+	    <br><br>
+      <!--    <div class="gallery-wrapper">
+           <div class="gallery">
+
+             <div>
+               <b>Brow Tidy</b>
+             </div>
+             <div>
+               <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUyOCwiZSI6MTE0MDU4fV0%3D">Book</a>
+             </div>
+           </div>
+
+           <div class="gallery">
+
+             <div>
+               <b>Brow Tint</b>
+             </div>
+              <div>
+               <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUzMCwiZSI6MTE0MDU4fV0%3D">Book</a>
+             </div>
+           </div>
+
+           <div class="gallery">
+
+             <div>
+               <b>Brow Tint and Tidy</b>
+             </div>
+              <div>
+               <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUzMSwiZSI6MTE0MDU4fV0%3D">Book</a>
+             </div>
+           </div>
+
+           <div class="gallery">
+
+             <div>
+               <b>Brow and Lash Tint</b>
+             </div>
+             <div>
+               <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUzMywiZSI6MTE0MDU4fV0%3D">Book</a>
+             </div>
+           </div>
+		   <div class="gallery">
+
+              <div>
+                <b>Eyelash Tint</b>
+              </div>
+             <div>
+                <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUzMiwiZSI6MTE0MDU4fV0%3D">Book</a>
+              </div>
+            </div>
+
+           <div class="gallery">
+
+             <div>
+               <b>Brow Threading</b>
+             </div>
+             <div>
+               <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUzNSwiZSI6MTE0MDU4fV0%3D">Book</a>
+             </div>
+           </div>
+         </div>
+         <br>
+         <div class="gallery-wrapper">
+            <div class="gallery">
+
+              <div>
+                <b>Lip Threading</b>
+              </div>
+              <div>
+                <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUzNiwiZSI6MTE0MDU4fV0%3D">Book</a>
+              </div>
+            </div>
+
+            <div class="gallery">
+
+              <div>
+                <b>Classic Lashes</b>
+              </div>
+
+              <div>
+                <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUyMiwiZSI6MTE0MDU4fV0%3D">Book</a>
+              </div>
+            </div>
+
+            <div class="gallery">
+
+              <div>
+                <b>Classic Lashes (Infills)</b>
+              </div>
+
+              <div>
+                <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUyMywiZSI6MTE0MDU4fV0%3D">Book</a>
+              </div>
+            </div>
+
+            <div class="gallery">
+
+              <div>
+                <b>Hybrid Lashes</b>
+              </div>
+
+              <div>
+                <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUyNCwiZSI6MTE0MDU4fV0%3D">Book</a>
+              </div>
+            </div>
+
+		 <div class="gallery">
+
+              <div>
+                <b>Lash Removal</b>
+              </div>
+
+              <div>
+                <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUyNiwiZSI6MTE0MDU4fV0%3D">Book</a>
+              </div>
+            </div>
+
+		<div class="gallery">
+
+             <div>
+               <b>HD Brows</b>
+             </div>
+             <div>
+               <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUyNywiZSI6MTE0MDU4fV0%3D">Book</a>
+             </div>
+           </div>
+
+
+            <div class="gallery">
+
+              <div>
+                <b>Hybrid Lashes (Infills)</b>
+              </div>
+
+              <div>
+                <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUyNSwiZSI6MTE0MDU4fV0%3D">Book</a>
+              </div>
+            </div>
+          </div>-->
+          <br>
+	    
+	        
+	      <img src="images/nails.png" alt="Treatment">
+	  <h1 id="title">Nails and Makeup</h1><br>
+	<p>   <b style="color: black;">We offer a number of treatments for your hands using original CND and Blue Sky Gel products. When looked after well, our gel polishes offer up to two weeks wear, making this one of our most popular treatments. </b></p>
+        <br><br>
+	    <div>
+               <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now">Book</a>
+             </div>
+	    <br><br>
+	 <!--  <div class="gallery-wrapper">
+
+            <div class="gallery">
+
+              <div>
+                <b>CND Shellac Manicure</b>
+              </div>
+              <div>
+                <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUwNCwiZSI6MTE0MDU4fV0%3D">Book</a>
+              </div>
+            </div>
+
+            <div class="gallery">
+
+              <div>
+                <b>Occasion Makeup</b>
+              </div>
+              <div>
+                <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTUyMSwiZSI6MTE0MDU4fV0%3D">Book</a>
+              </div>
+            </div>
+
+            <div class="gallery">
+
+              <div>
+                <b>Skin Peel</b>
+              </div>
+              <div>
+                <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTA5MTU2MCwiZSI6MTE0MDU4fV0%3D">Book</a>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="gallery-wrapper">
+             <div class="gallery">
+
+               <div>
+                 <b>Gel Polish Removal</b>
+               </div>
+               <div>
+                 <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTEwNDgzNn1d">Book</a>
+               </div>
+             </div>
+
+             <div class="gallery">
+
+               <div>
+                 <b>Gel Polish</b>
+               </div>
+              <div>
+                 <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTEwNDgzOCwiZSI6MTE1MDQ5fV0%3D">Book</a>
+               </div>
+             </div>
+
+             <div class="gallery">
+
+               <div>
+                 <b>CND Shellac Polish with Removal</b>
+               </div>
+               <div>
+                 <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTEwNDg0MCwiZSI6MTE0MDU4fV0%3D">Book</a>
+               </div>
+             </div>
+
+             <div class="gallery">
+
+               <div>
+                 <b>Gel Polish with Removal</b>
+               </div>
+               <div>
+                 <a class="button back-color2" id="app" href="https://beauty-on-the-green.book.app/book-now?services=W3sicyI6MTEwNDg0MSwiZSI6MTE1MDQ5fV0%3D">Book</a>
+               </div>
+             </div>
+           </div>
+           <br>-->
+
+  	</div>
+ </body>
+ <script src="js/scripts.js"></script>
+</html>

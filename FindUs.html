@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+	 <script src="js/scripts.js"></script>
+  <script>
+  //An attempt to inject HTML into the page using AJAX.
+  document.addEventListener("DOMContentLoaded", getNav());
+
+  function getNav(){
+    const url = "./page-elements/navbar.html";
+    let req = new Request(url, {
+      method: "GET"
+    });
+
+    fetch(req)
+    .then(response => response.text())
+    .then (text => {
+      let dest = document.querySelector("navbar");
+      dest.innerHTML = text;
+    })
+  }
+  </script>
+
+  <!--FAVICON-->
+  <link rel="shortcut icon" href="images\favicon\favicon.ico" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty on the Green</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/navbar.css">
+</head>
+<body>
+  <navbar>
+
+</navbar>
+  <!-- The Light/Dark mode button and the Back to Top buttons navigation bar -->
+    <!--
+    <a class="button back-color2" id="ld"><img class="icon" src="images/day-icon.png" alt="Light mode"></a>
+    <nav class="side-content">
+    <a class="bottom-button back-color2" id="top" ><img class="icon" src="images/up-icon.png" alt="Back to top"></a>
+  </nav>
+  -->
+  <div class="back-color" id="main-wrapper">
+    <div id="main-content">
+      <div class="back-color header-div" id="main-head"><img class="logo" src="images/logo.jpg" alt="Logo"></div>
+		<br> <h1 id="title">Find Us</h1>
+			  <p>
+				<!--Below you can view our on-site locations around the UK:-->
+			  </p>
+        <br>
+        <br>
+        <div>
+		        <img class="location-image" src="images/map-loc.jpg" alt="Map" style="float: left;">
+            <p class="location-text"><h1 class="location-header">Address:</h1> <br> 43 <br> School Green <br> Shinfield <br> RG2 9EE </p>
+            <br>
+          <br>  <p class="location-text"><h1 class="location-header">Contact Details:</h1>  info@beautyonthegreenshinfield.co.uk </p>
+            <br>
+	  <a href="mailto:info@beautyonthegreenshinfield.co.uk">Click Here to Email Us</a>
+	  <br>
+          <br>  <p class="location-text"><h1 class="location-header">Directions:</h1> <br> From Hollow Lane:</p><br> Take the second exit at the School Green Roundabout to enter School Green. Beauty on the Green is located next door to the Co-Operative shop. <br> 
+		<br>From Hyde End Road:<br>
+		Continue along Hyde End Road and it will become School Green. Beauty on the Green is located on your right, just before the Co-Operative shop.<br>
+		<br> We have parking for one car on our driveway.
+            <br><br>
+         <br>   <p class="location-text"><h1 class="location-header">Opening Hours:</h1> <br>Mon-Sun: 9am - 9pm </p>
+        </div>
+		</div>
+	</div>
+
+ </body>
+ <script src="js/scripts.js"></script>
+</html>

@@ -23,6 +23,11 @@ b, h1{
   color: #FEA9BE;
 }
 
+table{
+  display: inline-block;
+  width: auto;
+  border-spacing: 20px;
+}
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
@@ -200,10 +205,10 @@ iframe{
 /* NAVBAR */
 
 .nav-title{
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
 font-family: "caviar dreams", "lane", "abadi", "arial", sans-serif;
   font-weight: bold;
-  text-align: left;
+/*  text-align: left;*/
 }
 
 .nav-background{
@@ -299,7 +304,7 @@ font-family: "caviar dreams", "lane", "abadi", "arial", sans-serif;
 
 div.gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+ /* border: 1px solid #ccc;*/
   float: left;
   width: 180px;
 }
@@ -325,6 +330,7 @@ div.desc {
 .location-text{
   border-bottom: black;
   border-bottom-style: solid;
+  margin-bottom: 10px;
 }
 
 .location-header{
@@ -514,7 +520,7 @@ height:0;
     margin: 5%;
     line-height: 40px;
     background-color: #FFFFFF;
-    border: 2px solid #FEA9BE;
+    /*border: 2px solid #FEA9BE;*/
     display:block;
     color: #FEA9BE;
   }
